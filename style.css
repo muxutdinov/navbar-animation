@@ -1,0 +1,46 @@
+body{
+    padding: 0;
+    margin: 0;
+    background: #f8c400;
+    display: flex;
+    height: 100vh;
+    align-items: center;
+}
+nav{
+    width: 100vw;
+
+}
+ul{
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+li{
+    display: flex;
+    list-style-type: none;
+}
+a{
+background-color: white;
+color: green;
+text-decoration: none;
+font-size: 18px;
+font-family: sans-serif;
+font-weight: 600;
+padding: 12px 25px;
+}
+a:hover{
+    animation: wiggle 0.5s;
+    cursor:pointer;
+}
+@keyframes wiggle{
+    25%{
+        transform: scale(0.7,1.4);
+    }
+    50%{
+        transform: scale(1.2,0.7);
+    }
+    75%{
+        transform: scale(0.6,1.3);
+    }
+}
